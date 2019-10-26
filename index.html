@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>My First javascript</h2>
+        <p id="demo"></p>
+        <form>
+            name: <input type="text"  value="Bob" id="name"><br>
+            age: <input type="text"  value="15" id="age"><br>
+            email: <input type="text"  value="dszfx@gmail.com" id="email"><br>
+        </form>
+        <button type="button" onclick="show()">Submit</button>
+        </body>
+    <script>
+        function show_date(){
+        }
+        function show(){
+            var user = {};
+            user.name = document.getElementById("name").value;
+            user.age = document.getElementById("age").value;
+            user.email = document.getElementById("email").value;
+            console.log(user);
+        }
+    </script>
+</html>
